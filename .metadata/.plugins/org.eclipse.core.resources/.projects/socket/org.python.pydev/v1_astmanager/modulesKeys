@@ -3,3 +3,8 @@ main.__init__|E:\workspace\socket\main\__init__.py
 main.client|E:\workspace\socket\main\client.py
 main.index|E:\workspace\socket\main\index.py
 main.server|E:\workspace\socket\main\server.py
+threadingsocket.__init__|E:\workspace\socket\threadingsocket\__init__.py
+threadingsocket.socket_server|E:\workspace\socket\threadingsocket\socket_server.py
+transferfile.__init__|E:\workspace\socket\transferfile\__init__.py
+transferfile.client|E:\workspace\socket\transferfile\client.py
+transferfile.server|E:\workspace\socket\transferfile\server.py

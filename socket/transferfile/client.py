@@ -13,8 +13,11 @@ while True:
     input = raw_input('path:')
     cmd,path = input.split('|') 
     file_name = os.path.basename(path)
+    #获取文件的名称
     file_size=os.stat(path).st_size
+    #获取文件的大小
     sk.send(cmd+"|"+file_name+'|'+str(file_size))
+    #自定义的发送的格式
     send_size = 0
     f= file(path,'rb')
     Flag = True
