@@ -1,8 +1,0 @@
-MODULES_MANAGER_V2
-conf|E:\workspace\三层架构\conf.py
-index|E:\workspace\三层架构\index.py
-module.__init__|E:\workspace\三层架构\module\__init__.py
-module.userinfo|E:\workspace\三层架构\module\userinfo.py
-utility.__init__|E:\workspace\三层架构\utility\__init__.py
-utility.http_helper|E:\workspace\三层架构\utility\http_helper.py
-utility.sql_helper|E:\workspace\三层架构\utility\sql_helper.py
