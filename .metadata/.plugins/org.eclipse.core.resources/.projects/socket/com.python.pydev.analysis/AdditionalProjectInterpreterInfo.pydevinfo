@@ -2,51 +2,45 @@
 -- START DISKCACHE
 E:\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\socket\com.python.pydev.analysis\v2_indexcache
 threadingsocket.socket_server|1429442265240|E:\workspace\socket\threadingsocket\socket_server.py
-transferfile.client|1429442271958|E:\workspace\socket\transferfile\client.py
+transferfile.client|1429452465338|E:\workspace\socket\transferfile\client.py
 threadingsocket.__init__|1429438012072|E:\workspace\socket\threadingsocket\__init__.py
 main.__init__|1429384168547|E:\workspace\socket\main\__init__.py
 main.client|1429389621461|E:\workspace\socket\main\client.py
 transferfile.__init__|1429441648033|E:\workspace\socket\transferfile\__init__.py
 main.index|1429390805523|E:\workspace\socket\main\index.py
-transferfile.server|1429445444543|E:\workspace\socket\transferfile\server.py
+transferfile.server|1429452465320|E:\workspace\socket\transferfile\server.py
 main.server|1429389770808|E:\workspace\socket\main\server.py
 -- END DISKCACHE
 -- START DICTIONARY
 7
 6=threadingsocket.socket_server
-3=transferfile.client
-2=main.client
+2=transferfile.client
+1=main.client
 4=main.index
 5=transferfile.server
 7=MyServer
-1=main.server
+3=main.server
 -- END DICTIONARY
 -- START TREE 1
-18
-add|1|addr!11@
-cli|1|client!19@
-cmd|1|cmd!27@
-con|2|conn!11@container!27@
-dat|3|data!11@data!27@data!19@
-f|1|f!27@
-fil|2|file_size!27@file_name!27@
-fla|2|flag!11@Flag!27@
+14
+cli|1|client!11@
+con|1|container!19@
+dat|3|data!27@data!19@data!11@
+f|1|f!19@
+fil|2|file_size!19@file_name!19@
+fla|2|flag!27@Flag!19@
 han|1|handle_request!34@
-inp|2|inp!19@input!27@
+inp|2|inp!11@input!19@
 ins|1|instance!43@
-ip_|3|ip_port!19@ip_port!27@ip_port!11@
+ip_|3|ip_port!11@ip_port!19@ip_port!27@
 mai|1|main!34@
 mys|2|MyServer!49@MyServer!41@
-pat|1|path!27@
-sen|1|send_size!27@
-ser|0|
-sk|2|sk!11@sk!27@
+sen|1|send_size!19@
+sk|2|sk!27@sk!19@
 -- END TREE
 -- START TREE 2
-6
-dat|0|
+4
 fin|1|finish!7&50@
-fla|0|
 han|2|handle!7&50@handle!7&42@
 ser|1|server!7&51@
 set|1|setup!7&50@

@@ -289,7 +289,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_EUaJEOaNEeSbm63P5ENyVw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="server" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;server.py&quot; partName=&quot;server&quot; title=&quot;server&quot; tooltip=&quot;socket/transferfile/server.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/socket/transferfile/server.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1344&quot; selectionTopPixel=&quot;626&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;server.py&quot; partName=&quot;server&quot; title=&quot;server&quot; tooltip=&quot;socket/transferfile/server.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/socket/transferfile/server.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;93&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -297,7 +297,7 @@
           <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_FbbbgOaNEeSbm63P5ENyVw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="client" iconURI="platform:/plugin/org.python.pydev/icons/python_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;client.py&quot; partName=&quot;client&quot; title=&quot;client&quot; tooltip=&quot;socket/transferfile/client.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/socket/transferfile/client.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;652&quot; selectionTopPixel=&quot;230&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.python.pydev.editor.PythonEditor&quot; name=&quot;client.py&quot; partName=&quot;client&quot; title=&quot;client&quot; tooltip=&quot;socket/transferfile/client.py&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/socket/transferfile/client.py&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;652&quot; selectionTopPixel=&quot;242&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.python.pydev.editor.PythonEditor</tags>
           <tags>removeOnHide</tags>
@@ -455,7 +455,7 @@
       <tags>categoryTag:WindowBuilder</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_ngQT3eYQEeS20u-yu2GrPQ" elementId="org.python.pydev.navigator.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="PyDev Package Explorer" iconURI="platform:/plugin/org.python.pydev/icons/pydev_package_explorer.gif" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1429016464711&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/socket&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/socket/transferfile&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/yujianbo&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/yujianbo/file&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/yujianbo/main&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/&#x4e09;&#x5c42;&#x67b6;&#x6784;/module&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/&#x4e09;&#x5c42;&#x67b6;&#x6784;/utility&quot;/>&#xD;&#xA;&lt;selected IMemento.internal.id=&quot;E:/workspace/socket/transferfile/server.py&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1429016464711&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/socket&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/socket/transferfile&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/socket/transferfile/server.py&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/yujianbo&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/yujianbo/file&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/yujianbo/main&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/&#x4e09;&#x5c42;&#x67b6;&#x6784;&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/&#x4e09;&#x5c42;&#x67b6;&#x6784;/module&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;E:/workspace/&#x4e09;&#x5c42;&#x67b6;&#x6784;/utility&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:PyDev</tags>
       <menus xmi:id="_ngQT3uYQEeS20u-yu2GrPQ" elementId="org.python.pydev.navigator.view">
@@ -608,7 +608,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ngQUIuYQEeS20u-yu2GrPQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_vDZuwOZ6EeSbm63P5ENyVw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_ngUmDeYQEeS20u-yu2GrPQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_3Y8dkOafEeSePOXdO4zGwg" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_ngUmDeYQEeS20u-yu2GrPQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ngQUMOYQEeS20u-yu2GrPQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -635,7 +635,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ngQ6ruYQEeS20u-yu2GrPQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_vDlU8OZ6EeSbm63P5ENyVw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ngUlh-YQEeS20u-yu2GrPQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_3ZGOkOafEeSePOXdO4zGwg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ngUlh-YQEeS20u-yu2GrPQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ngQ6ueYQEeS20u-yu2GrPQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

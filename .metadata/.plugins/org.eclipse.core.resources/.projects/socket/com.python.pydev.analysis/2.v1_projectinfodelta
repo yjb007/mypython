@@ -1,16 +1,1 @@
-INSTUPtransferfile.client
-E:\workspace\socket\transferfile\client.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0&&3|10|2|0&&3|11|2|0&&3|12|2|0&&3|13|2|0&&3|12|2|0&&3|13|2|0
-container=4
-data=13
-ip_port=1
-transferfile.client=2
-file_name=8
-f=11
-Flag=12
-file_size=9
-send_size=10
-input=5
-path=7
-sk=3
-cmd=6
+DELSTRtransferfile.client
