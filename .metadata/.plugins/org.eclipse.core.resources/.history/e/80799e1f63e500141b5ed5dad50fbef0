@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+#coding:utf8
+#Author:zhuima
+#Date:2015-03-30
+#Version:0.1
+#Function:display a list and add date
+
+
+
+# 导入模块
+import os
+
+
+def menu():
+    '''设置munu目录，提供给用户的操作接口 '''
+    print '''
+        1.add user info
+        2.disp all user info
+        3.update user info by username
+        4:del user by username
+        5:sort user info by 
+        0.exit program
+    '''
+    op = raw_input('Please select one >>> ')
+    return op
+
+def txl_exit():
+    ''' 退出程序 '''
+    os._exit(0)
+
+
+def txl_error():
+    ''' 当用户输出选项不在定义的选项内的时候，报错'''
+    print
+    print 'Unkonw options,Please try again!'
+
+# 定义dict，配合函数实现switch功能
+
+ops = {
+#    '1':txl_add,
+#    '2':txl_dis,
+#    '3':txl_update,
+#    '4':txl_del,
+#    '5':txl_sort,
+    '0':txl_exit,
+}
+
+def main():
+    '''主程序 '''
+    while True:
+        op = menu()
+#         ops.get(op,txl_error)()
+        ops.get(op)()
+
+if __name__ == '__main__':
+    main()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

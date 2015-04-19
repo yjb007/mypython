@@ -1,0 +1,37 @@
+-- VERSION_4
+-- START DISKCACHE
+E:\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\三层架构\com.python.pydev.analysis\v2_indexcache
+module.__init__|1429372017947|E:\workspace\三层架构\module\__init__.py
+utility.__init__|1429372067990|E:\workspace\三层架构\utility\__init__.py
+module.userinfo|1429381340222|E:\workspace\三层架构\module\userinfo.py
+utility.http_helper|1429378881784|E:\workspace\三层架构\utility\http_helper.py
+index|1429386855816|E:\workspace\三层架构\index.py
+conf|1429383376386|E:\workspace\三层架构\conf.py
+utility.sql_helper|1429383236820|E:\workspace\三层架构\utility\sql_helper.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+5=MysqlHelper.__init__
+8=MysqlHelper
+4=module.userinfo
+2=index
+1=conf
+3=utility.sql_helper
+6=userinfo.__init__
+7=userinfo
+-- END DICTIONARY
+-- START TREE 1
+4
+con|1|conn_dict!11@
+men|1|menu!18@
+mys|1|MysqlHelper!25@
+use|1|userinfo!33@
+-- END TREE
+-- START TREE 2
+5
+__c|1|__conn_dict!5&27@
+__h|1|__helper!6&35@
+__i|2|__init__!7&34@__init__!8&26@
+che|1|CheckUserInfo!7&34@
+get|2|Get_One!8&26@Get_Dict!8&26@
+-- END TREE

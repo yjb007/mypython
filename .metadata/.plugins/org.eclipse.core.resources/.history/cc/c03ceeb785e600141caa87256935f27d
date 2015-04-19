@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//main/client.py=utf-8
+encoding//main/index.py=utf-8
+encoding//main/server.py=utf-8
+encoding//threadingsocket/socket_server.py=utf-8
+encoding//transferfile/server.py=utf-8

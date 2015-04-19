@@ -1,0 +1,20 @@
+#! /usr/bin/env python
+#_*_ coding:utf-8 _*_
+
+def outer(fun):
+    def wrapper():
+        print 'OK'
+        fun()
+    return wrapper
+
+@outer
+def Func1():
+    print 'func1'
+    
+
+def Func2():
+    print 'func2'
+    
+
+def Func3():
+    print 'func3'

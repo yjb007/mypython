@@ -1,0 +1,137 @@
+#! /usr/bin/env python
+#_*_ coding:utf-8 _*_
+
+from file import demo
+from __builtin__ import dict
+
+  
+if __name__ == '__main__':
+    demo.Foo()
+else:
+    print 'no'
+
+
+print __file__
+print __doc__
+print __name__
+
+def foo(name, action = '砍柴', where = '北京'):
+    print name, '去', where, action
+    
+foo('张三', '吃饭', '上海')
+foo('李四')
+foo('王五', action = '上网')
+foo('六六', action = '上网' , where='广州')
+
+def show(*agrv):
+    for i in agrv:
+        print i
+show(1,2,3,4,5)
+#传参是不确定的多个参数
+
+def show1(agrv):
+    for item in agrv:
+        print item
+show1([1,2,3,4,5])
+#传参是列表
+
+def show2(**agrv):
+    for item in agrv.items():
+        print item
+        
+dict={'k1':123, 'k2':'yjb','k3':'张三'}
+print dict
+show2(**dict)
+show2(name='zhangsan', age=24)
+#传参是字典
+
+
+
+def login(username):
+    if username == 'alex':
+        return 'OK'
+    else:
+        return 'NO'
+#return返回值
+       
+def detail(username): 
+    print username, 'your money is 5555'
+        
+# if __name__ =='__main__':
+#     user = raw_input('please input your name:')
+#     res = login(user)
+#     if res == 'OK':
+#         detail(user)
+#     else:
+#         print 'NO MONEY'
+    
+    
+def xxx():
+    yield 1
+    yield 2
+    yield 3     
+    yield 4   
+    yield 5   
+
+re = xxx()         
+print re
+#yield是生成器，可以不占用内存
+for item in re:
+    print item
+    
+    
+def AlexReadlines():
+    seek = 0 #变量seek
+    while True:
+        with open('E:/tmp.txt','rb') as f: #这样定义就不用f.close()了
+            f.seek(seek)  #定位到位置0
+            data = f.readline() #读取文件
+            if data: #判断data是否存在
+                seek = f.tell() #重新定义seek的位置，f.tell()定位出现在的文件的位置，为下次读取做准备
+                yield data #将data保存到yield中,逐行读取并保存到data
+            else:
+                return  #return会退出整个脚本
+  
+print AlexReadlines() #打印出的是生成器
+  
+for item in AlexReadlines():
+    print item,
+
+#可用作线程池，迭代效果比较好
+#一般函数只有函数执行完毕后才能返回，中间状态外界不知道
+#yield可以让函数执行的中间过程的状态被外界所知         
+    
+
+    
+result = 'false' if 1>3 else 'true'
+print result
+#三元运算符
+
+def plus(x,y):
+    return x+y
+print plus(13, 34)
+
+tmp = lambda x,y,z:x+y*z-x
+print tmp(1,2,3)
+#lambda运算符，匿名函数
+
+print map(lambda x:x**2, range(10))
+
+a = []
+help(a)
+help(dir())
+print dir(a)
+print type(a)
+print vars() 
+
+        
+        
+
+
+
+
+
+
+
+
+

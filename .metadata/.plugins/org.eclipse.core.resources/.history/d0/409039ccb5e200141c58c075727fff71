@@ -1,0 +1,37 @@
+#! /usr/bin/env python
+#_*_ coding:utf-8 _*_
+
+from file import test
+from file.test import fool
+
+test.fool()
+
+fool()
+'''
+dfsdsdf
+'''
+
+name = raw_input('Please input your name:')
+#age = raw_input('age:')
+#age = int(raw_input('age:'))
+#age = input('age:')
+job = raw_input('JOB:')
+salary = raw_input('Salary:')
+for i in range(10):
+  age = input('Please input your gae:')
+  if age > 30:
+    print 'Input smaller'
+  elif age == 30:
+    print 'Good,Congratution'
+    break
+  else:
+    print 'Input bigger'
+  print 'you have %s choice!' %((9 - i))
+print '''
+Personal information of %s:
+    Name: %s
+    Age : %s
+    Job : %s
+  Salary: %s
+------------------------
+''' %(name, name, age, job, salary)
