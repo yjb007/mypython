@@ -34,4 +34,5 @@ print 'end'
 print 'end'
 print 'end'
 time.sleep(6)
+#会导致线程停止运行
 
