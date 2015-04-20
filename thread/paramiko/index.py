@@ -3,14 +3,18 @@
 import paramiko
 
 ssh = paramiko.SSHClient()
-#ÊµÀı»¯Ò»¸ö¶ÔÏó
+#å®ä¾‹åŒ–ä¸€ä¸ªå¯¹è±¡
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-#ÈÃsshÔ¶³ÌµÇÂ½Ê±µÄÌáÎÊyes/noºöÂÔµô
+#è®©sshè¿œç¨‹ç™»é™†æ—¶çš„æé—®yes/noå¿½ç•¥æ‰
 ssh.connect('10.0.18.1', 22, 'root', '123456')
-#Ô¶³ÌÁ¬½Ó
+#è¿œç¨‹è¿æ¥
 stdin, stdout, stderr = ssh.exec_command('df')
-#Ô¶³ÌÖ´ĞĞÃüÁîµÄ·µ»ØÄÚÈİ£¬±äÁ¿¶¨Òå
+#è¿œç¨‹æ‰§è¡Œå‘½ä»¤çš„è¿”å›å†…å®¹ï¼Œå˜é‡å®šä¹‰
 print stdout.read()
-#¶À´¦±ê×¼Êä³ö
+#ç‹¬å¤„æ ‡å‡†è¾“å‡º
 ssh.close();
-#¹Ø±ÕÁ¬½Ó
+#å…³é—­è¿æ¥
+
+#linux centosä¸‹å®‰è£…paramiko,ç›´æ¥yum -y install python-paramiko
+
+
