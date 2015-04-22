@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
-encoding//file/demo.py=utf-8
+encoding//demo/index.py=utf-8
+encoding//demo/thread_event.py=utf-8
+encoding//demo/thread_lock.py=utf-8
+encoding//demo/\u81EA\u5B9A\u4E49\u7EBF\u7A0B\u7C7B.py=utf-8
 encoding//main/index.py=utf-8
 encoding//main/life.py=utf-8
 encoding//main/mysql.py=utf-8

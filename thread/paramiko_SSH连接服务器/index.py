@@ -1,10 +1,10 @@
 #! /usr/bin/env python
 #_*_ coding:utf-8 _*_
-import paramiko
+import paramiko_SSH连接服务器
 
-ssh = paramiko.SSHClient()
+ssh = paramiko_SSH连接服务器.SSHClient()
 #实例化一个对象
-ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+ssh.set_missing_host_key_policy(paramiko_SSH连接服务器.AutoAddPolicy())
 #让ssh远程登陆时的提问yes/no忽略掉
 ssh.connect('10.0.18.1', 22, 'root', '123456')
 #远程连接
@@ -15,6 +15,6 @@ print stdout.read()
 ssh.close();
 #关闭连接
 
-#linux centos下安装paramiko,直接yum -y install python-paramiko
+#linux centos下安装paramiko,直接yum -y install python-paramiko_SSH连接服务器
 
 
