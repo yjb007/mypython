@@ -42,6 +42,7 @@ if __name__ == '__main__':
         p = Process(target=Foo2,args=(i,))
         p.start()
         p.join()
+        #p.join()会让进程串行，有wait的意思
 
 
 #多进程使用方法2
