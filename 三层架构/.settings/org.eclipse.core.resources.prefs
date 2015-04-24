@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//module/userinfo.py=utf-8
 encoding//utility/http_helper.py=utf-8
+encoding//utility/redis_helper.py=utf-8
 encoding//utility/sql_helper.py=utf-8
 encoding/conf.py=utf-8
 encoding/index.py=utf-8
